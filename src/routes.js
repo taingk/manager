@@ -16,10 +16,6 @@ export default [
     component: PanelLeftPage,
   },
   {
-    path: '/panel-right/',
-    component: PanelRightPage,
-  },
-  {
     path: '/about/',
     component: AboutPage,
   },

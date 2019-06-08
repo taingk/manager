@@ -24,8 +24,8 @@ export default function (props) {
 
   // Framework7 parameters here
   const f7params = {
-    id: 'io.framework7.testapp', // App bundle ID
-    name: 'Framework7', // App name
+    id: 'io.manager.app', // App bundle ID
+    name: 'Manager', // App name
     theme: 'auto', // Automatic theme detection
     // App routes
     routes,
@@ -41,16 +41,11 @@ export default function (props) {
         <View url="/panel-left/" />
       </Panel>
 
-      {/* Right Panel */}
-      <Panel right reveal themeDark>
-        <View url="/panel-right/"/>
-      </Panel>
-
       {/* Main View */}
       <View id="main-view" url="/" main className="safe-areas"/>
 
       {/* Popup */}
-      <Popup id="popup">
+      {/* <Popup id="popup">
         <View>
           <Page>
             <Navbar title="Popup">
@@ -61,10 +56,10 @@ export default function (props) {
             <Block>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, architecto. Cupiditate laudantium rem nesciunt numquam, ipsam. Voluptates omnis, a inventore atque ratione aliquam. Omnis iusto nemo quos ullam obcaecati, quod.</Block>
           </Page>
         </View>
-      </Popup>
+      </Popup> */}
 
       {/* Login Screen */}
-      <LoginScreen id="login-screen">
+      {/* <LoginScreen id="login-screen">
         <View>
           <Page loginScreen>
             <LoginScreenTitle>Login</LoginScreenTitle>
@@ -90,7 +85,7 @@ export default function (props) {
             </List>
           </Page>
         </View>
-      </LoginScreen>
+      </LoginScreen> */}
     </App>
   );
 };

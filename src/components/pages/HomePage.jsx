@@ -22,15 +22,12 @@ export default () => (
       <NavLeft>
         <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left"></Link>
       </NavLeft>
-      <NavTitle>My App</NavTitle>
-      <NavRight>
-        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right"></Link>
-      </NavRight>
+      <NavTitle>Manager</NavTitle>
     </Navbar>
-    <Toolbar bottom>
+    {/* <Toolbar bottom>
       <Link>Left Link</Link>
       <Link>Right Link</Link>
-    </Toolbar>
+    </Toolbar> */}
     <Block strong>
       <p>Here is your blank Framework7 app. Let's see what we have here.</p>
     </Block>
@@ -40,7 +37,7 @@ export default () => (
       <ListItem link="/form/" title="Form"></ListItem>
     </List>
     <BlockTitle>Modals</BlockTitle>
-    <Block strong>
+    {/* <Block strong>
       <Row>
         <Col width="50">
           <Button fill raised popupOpen="#popup">Popup</Button>
@@ -49,21 +46,10 @@ export default () => (
           <Button fill raised loginScreenOpen="#login-screen">Login Screen</Button>
         </Col>
       </Row>
-    </Block>
-    <BlockTitle>Panels</BlockTitle>
-    <Block strong>
-      <Row>
-        <Col width="50">
-          <Button fill raised panelOpen="left">Left Panel</Button>
-        </Col>
-        <Col width="50">
-          <Button fill raised panelOpen="right">Right Panel</Button>
-        </Col>
-      </Row>
-    </Block>
-    <List>
+    </Block> */}
+    {/* <List>
       <ListItem link="/dynamic-route/blog/45/post/125/?foo=bar#about" title="Dynamic Route"></ListItem>
       <ListItem link="/load-something-that-doesnt-exist/" title="Default Route (404)"></ListItem>
-    </List>
+    </List> */}
   </Page>
 );

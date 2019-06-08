@@ -3,11 +3,8 @@ import { Page, Navbar, Block, BlockTitle, List, ListItem } from 'framework7-reac
 
 export default () => (
   <Page>
-    <Navbar title="Left Panel" />
-    <Block strong>
-      <p>Left panel content goes here</p>
-    </Block>
-    <BlockTitle>Load page in panel</BlockTitle>
+    <Navbar title="References" />
+    {/* <BlockTitle>Load page in panel</BlockTitle>
     <List>
       <ListItem link="/about/" title="About"></ListItem>
       <ListItem link="/form/" title="Form"></ListItem>
@@ -16,6 +13,6 @@ export default () => (
     <List>
       <ListItem link="/about/" title="About" view="#main-view" panelClose></ListItem>
       <ListItem link="/form/" title="Form" view="#main-view" panelClose></ListItem>
-    </List>
+    </List> */}
   </Page>
 );
